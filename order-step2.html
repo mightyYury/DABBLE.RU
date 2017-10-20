@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+    <title>Dabble</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<header class="header clearfix">
+    <div class="header__logo"><img src="images/logo.png" alt=""></div>
+    <div class="header__contact">
+        <div class="phone">8 (800) 500-82-64</div>
+        <input type="button" class="feedback__btn" value="Заказать уборку">
+    </div>
+    <div class="header__client">
+        <div class="client__menu">
+            Здравствуйте, <a href="#">Имя клиента<img src="images/icons/arrow.png" alt=""></a>
+
+        </div>
+    </div>
+</header>
+<main class="order mainpage wrap">
+    <div class="order__title">Оформление заказа <span>шаг 2 из 2</span></div>
+    <div class="order__form">
+        <div class="order__form-title">Адрес квартиры</div>
+        <div class="calculate__menu">
+            <div class="order__address">
+                <input class="order__address-city" type="text" placeholder="Город, улица, дом">
+                <input class="order__address-flat" type="text" placeholder="Кв-ра">
+                <input class="order__address-option" type="text" placeholder="Подъезд">
+                <input class="order__address-option" type="text" placeholder="Домофон">
+                <input class="order__address-option" type="text" placeholder="Этаж">
+            </div>
+            <div class="order__form-title" style="margin-top: 14px;">Когда к вам приехать</div>
+            <div class="order__date">
+                <input type="date">
+                <input type="time">
+            </div>
+            <div class="order__form-title" style="margin-top: 14px;">Способ оплаты</div>
+            <div class="order__pay">
+                <select name="order__pay" id="order__pay" size="1">
+                    <option>Банковская карта</option>
+                    <option>Наличные</option>
+                </select>
+            </div>
+            <div class="order__form-title" style="margin-top: 14px;">Расскажите о себе</div>
+            <div class="order_client-info">
+                <input type="text" placeholder="Имя">
+                <input type="email" placeholder="Электронная почта">
+            </div>
+            <div class="order__form-title" style="margin-top: 14px;">Комментарий для клинера</div>
+            <div class="order__comment">
+                <textarea name="" id="" rows="5" placeholder="На что стоит обратить внимание клинеру"></textarea>
+            </div>
+            <div class="calculate__after-repair">
+                <input type="checkbox" name="after-repair" id="after-repair">
+                <label for="after-repair">У меня нет пылесоса</label>
+            </div>
+            <div class="calculate__btn"><img src="images/icons/calc.png" alt=""><p>Оплата</p></div>
+        </div>
+
+    </div>
+    <div class="order__result">
+        <div class="order__result-box">
+            <div class="result-box__title">Уборка квартиры</div>
+            <div class="result-box__content">
+                <table>
+                    <tr>
+                        <td class="result-table__item">Время уборки</td>
+                        <td class="result-table__value">5 часов 30 минут</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Комнат</td>
+                        <td class="result-table__value">3</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Санузлов</td>
+                        <td class="result-table__value">1</td>
+                    </tr>
+                </table>
+                <hr>
+                <table class="result-table__second">
+                    <tr>
+                        <td class="result-table__item">Стоимость уборки</td>
+                        <td class="result-table__value">3621Р</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Духовка</td>
+                        <td class="result-table__value">279Р</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Кухонные шкафы</td>
+                        <td class="result-table__value">400Р</td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="result-table__item">Дата уборки</td>
+                        <td class="result-table__value">Вт, 22 авг. 8:00</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Способ оплаты</td>
+                        <td class="result-table__value">Наличные</td>
+                    </tr>
+                </table>
+                <hr>
+                <table class="result-table__final">
+                    <tr>
+                        <td class="result-table__item">К оплате</td>
+                        <td class="result-table__value">4000₽</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer clearfix">
+    <div class="wrap">
+        <div class="footer__nav">
+            <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <a href="#" rel="nofollow" target="_blank"><div class="first"></div></a>
+            <a href="#" rel="nofollow" target="_blank"><div class="vk"></div></a>
+            <a href="#" rel="nofollow" target="_blank"><div class="instagram"></div></a>
+            <a href="#" rel="nofollow" target="_blank"><div class="facebook"></div></a>
+        </div>
+        <div class="footer__copyright">© Dabble</div>
+    </div>
+</footer>
+</body>
+</html>

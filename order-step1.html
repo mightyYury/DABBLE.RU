@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+    <title>Dabble</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <header class="header clearfix">
+            <div class="header__logo"><img src="images/logo.png" alt=""></div>
+            <div class="header__contact">
+                <div class="phone">8 (800) 500-82-64</div>
+                <input type="button" class="feedback__btn" value="Заказать уборку">
+            </div>
+            <div class="header__client">
+                <div class="client__menu">
+                    Здравствуйте, <a href="#">Имя клиента<img src="images/icons/arrow.png" alt=""></a>
+
+                </div>
+            </div>
+        </header>
+<main class="order mainpage wrap">
+    <div class="order__title">Оформление заказа <span>шаг 1 из 2</span></div>
+    <div class="order__form">
+        <div class="order__form-title">Ваша квартира</div>
+        <div class="calculate__menu">
+            <div class="calculate__parameter"><a href="#">-</a><p>1-комнатная</p><a href="#">+</a></div>
+            <div class="calculate__parameter"><a href="#">-</a><p>1 санузел</p><a href="#">+</a></div>
+            <div class="calculate__time">Время на работу: <span>5 часов 30 минут</span></div>
+            <input class="calculate__time-range" type="range" min="0" max="24" step="o.5" value="5.5">
+            <div class="calculate__time-recommended">Рекоммендуемое время на уборку квартиры вашего типа <span>5 часов 30 минут</span></div>
+            <hr/>
+            <div class="calculate__services">
+                <div class="calculate__services-title">Дополнительные услуги</div>
+                <div class="calculate__services-content">
+                    <div class="calculate__services-item">
+                        <label for="service-item">Холодильник: от 279Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Духовка: от 279Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Кухонные шкаф: от 400Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Микроволновка: от 400Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Посуда: от 200Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Окна: от 200Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Балкон: от 200Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                    <div class="calculate__services-item">
+                        <label for="service-item">Глажка: от 200Р</label>
+                        <input id="service-item" type="checkbox">
+                    </div>
+                </div>
+            </div>
+            <div class="calculate__after-repair">
+                <input type="checkbox" name="after-repair" id="after-repair">
+                <label for="after-repair">После ремонта</label>
+            </div>
+            <div class="calculate__btn"><img src="images/icons/calc.png" alt=""><p>Расчитать стоимость уборки</p></div>
+        </div>
+    </div>
+    <div class="order__result">
+        <div class="order__result-box">
+            <div class="result-box__title">Уборка квартиры</div>
+            <div class="result-box__content">
+                <table>
+                    <tr>
+                        <td class="result-table__item">Время уборки</td>
+                        <td class="result-table__value">5 часов 30 минут</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Комнат</td>
+                        <td class="result-table__value">3</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Санузлов</td>
+                        <td class="result-table__value">1</td>
+                    </tr>
+                </table>
+                <hr>
+                <table class="result-table__second">
+                    <tr>
+                        <td class="result-table__item">Стоимость уборки</td>
+                        <td class="result-table__value">3621Р</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Духовка</td>
+                        <td class="result-table__value">279Р</td>
+                    </tr>
+                    <tr>
+                        <td class="result-table__item">Кухонные шкафы</td>
+                        <td class="result-table__value">400Р</td>
+                    </tr>
+                </table>
+                <hr>
+                <table class="result-table__final">
+                    <tr>
+                        <td class="result-table__item">К оплате</td>
+                        <td class="result-table__value">4000₽</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer class="footer clearfix">
+        <div class="wrap">
+            <div class="footer__nav">
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <a href="#" rel="nofollow" target="_blank"><div class="first"></div></a>
+                <a href="#" rel="nofollow" target="_blank"><div class="vk"></div></a>
+                <a href="#" rel="nofollow" target="_blank"><div class="instagram"></div></a>
+                <a href="#" rel="nofollow" target="_blank"><div class="facebook"></div></a>
+            </div>
+            <div class="footer__copyright">© Dabble</div>
+        </div>
+    </footer>
+</body>
+</html>

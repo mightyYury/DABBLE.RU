@@ -1,0 +1,7 @@
+.employees__favorites:hover:after {
+    content: 'В избранное';
+}
+
+.services__dots:hover:before {
+    content: 'Застелим кровать и поменяем белье'!important;
+}

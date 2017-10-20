@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+    <title>Dabble</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ru.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tabs.js"></script>
+</head>
+<body>
+<header class="header clearfix">
+    <div class="header__logo"><img src="images/logo.png" alt=""></div>
+    <div class="header__contact">
+        <div class="phone">8 (800) 500-82-64</div>
+        <input type="button" class="feedback__btn" value="Заказать уборку">
+    </div>
+    <div class="header__client">
+        <div class="client__menu">
+            Здравствуйте, <a href="#">Имя клиента<img src="images/icons/arrow.png" alt=""></a>
+
+        </div>
+    </div>
+</header>
+<main class="profile mainpage wrap">
+   <div class="profile__title">Личный кабинет</div>
+
+    <div class="js-tabs">
+        <div class="profile__nav">
+            <ul class="tabs">
+                <li class="active"><div class="profile__nav-orders tab-btn">Мои заказы</div></li>
+                <li><div class="profile__nav-actions tab-btn">Акции</div></li>
+                <li><div class="profile__nav-cleaners tab-btn">Мои клинеры</div></li>
+                <li><div class="profile__nav-options tab-btn">Настройки</div></li>
+            </ul>
+        </div>
+        <!-- ______ORDERS______ -->
+        <div class="profile__box-orders tab_cont active">
+            <div class="profile__box-orders-nav">
+                <ul>
+                    <li class="active">Актуальные</li>
+                    <li>Выполненые</li>
+                </ul>
+            </div>
+            <div class="profile__order">
+                <div class="profile__order-date"><span>21</span><p>июнь, 2017</p></div>
+                <div class="profile__order-info">
+                    <h4>Чечеринский проезд, дом 94, 1 подъезд, кв. 2</h4>
+                    <div class="profile__order-panel">
+                        <div class="profile__order-cancel"></div>
+                        <div class="profile__order-edit"></div>
+                        <div class="profile__order-time">18:00</div>
+                    </div>
+                    <div class="profile__order-services">
+                        <ul>
+                            <li>Холодильник</li>
+                            <li>Духовка</li>
+                            <li>Балкон</li>
+                            <li>Микроволновка</li>
+                            <li>Окна</li>
+                        </ul>
+                    </div>
+                    <div class="profile__order-price">4000₽</div>
+                    <div class="profile__order-cleaner">
+                        <img src="images/emp/emp2.png" alt="">
+                        <p>Клинер <span>Оля Ведмедева</span></p>
+                    </div>
+                </div>
+                <div class="profile__order-feedback">
+                    <p>Пожалуйста, оцените качество уборки</p>
+                    <div class="profile__order-rate">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <textarea name="feedback" id="feedback" placeholder="Отзывы" rows="5"></textarea>
+                    <div class="calculate__btn"><p>Отправить</p></div>
+                </div>
+            </div>
+            <div class="profile__order">
+                <div class="profile__order-date"><span>21</span><p>июнь, 2017</p></div>
+                <div class="profile__order-info">
+                    <h4>Чечеринский проезд, дом 94, 1 подъезд, кв. 2</h4>
+                    <div class="profile__order-panel">
+                        <div class="profile__order-cancel"></div>
+                        <div class="profile__order-edit"></div>
+                        <div class="profile__order-time">18:00</div>
+                    </div>
+                    <div class="profile__order-services">
+                        <ul>
+                            <li>Холодильник</li>
+                            <li>Духовка</li>
+                            <li>Балкон</li>
+                            <li>Микроволновка</li>
+                            <li>Окна</li>
+                        </ul>
+                    </div>
+                    <div class="profile__order-price">4000₽</div>
+                    <div class="profile__order-cleaner">
+                        <img src="images/emp/emp2.png" alt="">
+                        <p>Клинер <span>Оля Ведмедева</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile__order">
+                <div class="profile__order-date"><span>21</span><p>июнь, 2017</p></div>
+                <div class="profile__order-info">
+                    <h4>Чечеринский проезд, дом 94, 1 подъезд, кв. 2</h4>
+                    <div class="profile__order-panel">
+                        <div class="profile__order-cancel"></div>
+                        <div class="profile__order-edit"></div>
+                        <div class="profile__order-time">18:00</div>
+                    </div>
+                    <div class="profile__order-services">
+                        <ul>
+                            <li>Холодильник</li>
+                            <li>Духовка</li>
+                            <li>Балкон</li>
+                            <li>Микроволновка</li>
+                            <li>Окна</li>
+                        </ul>
+                    </div>
+                    <div class="profile__order-price">4000₽</div>
+                    <div class="profile__order-cleaner">
+                        <img src="images/emp/emp2.png" alt="">
+                        <p>Клинер <span>Оля Ведмедева</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ______ACTIONS______ -->
+        <div class="profile__box-actions tab_cont">
+            <div class="profile__actions">
+                <div class="profile__action">
+                    <div class="profile__action-procent"><span>9%</span></div>
+                    <div class="profile__action-content">
+                        <h4>Скидка на первый заказ!</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id felis eget quam dignissim placerat ut accumsan erat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ______CLEANERS______ -->
+        <div class="profile__cleaners tab_cont">
+            <div class="profile__box-orders-nav">
+                <ul>
+                    <li class="active">Все</li>
+                    <li>Избранные</li>
+                    <li>Черный список</li>
+                </ul>
+            </div>
+            <div class="profile__cleaners-list">
+                <div class="employees__items">
+                    <div class="employees__item">
+                        <div class="employees__favorites"></div>
+                        <a href="#"><img src="images/emp/emp1.png" alt=""></a>
+                        <div class="employees__name"><a href="">Дарья Остроухова</a></div>
+                        <div class="employees__reviews"><a href="" class="">12 отзывов</a></div>
+                        <div class="employees__rating">
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <div class="employees__order">
+                            <button>Заказать уборку</button>
+                        </div>
+                    </div>
+                    <div class="employees__item">
+                        <div class="employees__favorites checked"></div>
+                        <a href="#"><img src="images/emp/emp2.png" alt=""></a>
+                        <div class="employees__name"><a href="">Оля Ведмедева</a></div>
+                        <div class="employees__reviews"><a href="" class="">7 отзывов</a></div>
+                        <div class="employees__rating">
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <div class="employees__order">
+                            <button>Заказать уборку</button>
+                        </div>
+                    </div>
+                    <div class="employees__item">
+                        <a href="#"><img src="images/emp/emp3.png" alt=""></a>
+                        <div class="employees__name"><a href="">Ирина Калинина</a></div>
+                        <div class="employees__reviews"><a href="" class="">25 отзывов</a></div>
+                        <div class="employees__rating">
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="employees__items">
+                    <div class="employees__item">
+                        <a href="#"><img src="images/emp/emp1.png" alt=""></a>
+                        <div class="employees__name"><a href="">Дарья Остроухова</a></div>
+                        <div class="employees__reviews"><a href="" class="">12 отзывов</a></div>
+                        <div class="employees__rating">
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                    <div class="employees__item">
+                        <a href="#"><img src="images/emp/emp2.png" alt=""></a>
+                        <div class="employees__name"><a href="">Оля Ведмедева</a></div>
+                        <div class="employees__reviews"><a href="" class="">7 отзывов</a></div>
+                        <div class="employees__rating">
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                    <div class="employees__item">
+                        <a href="#"><img src="images/emp/emp3.png" alt=""></a>
+                        <div class="employees__name"><a href="">Ирина Калинина</a></div>
+                        <div class="employees__reviews"><a href="" class="">25 отзывов</a></div>
+                        <div class="employees__rating">
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star rated"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ______OPTIONS______ -->
+        <div class="profile__options tab_cont">
+            <div class="profile__options-form">
+                <table>
+                    <tr>
+                        <td class="profile__options-item">Email</td>
+                        <td class="profile__options-value">vovan@mail.ru</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="profile__options-item">Пароль</td>
+                        <td class="profile__options-value">&#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226;<span class="profile_password-change">Изменить</span></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="profile__options-item">Телефон</td>
+                        <td class="profile__options-value"><input class="profile__phone-change" type="text" value="8-985-172-06-10"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="profile__options-item">Адрес</td>
+                        <td class="profile__options-value">
+                            <div class="order__address">
+                            <input class="order__address-city" type="text" placeholder="Город, улица, дом">
+                            <input class="order__address-flat" type="text" placeholder="Кв-ра">
+                            <input class="order__address-option" type="text" placeholder="Подъезд">
+                            <input class="order__address-option" type="text" placeholder="Домофон">
+                            <input class="order__address-option" type="text" placeholder="Этаж">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="calculate__btn"><p>Отправить</p></div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer clearfix">
+    <div class="wrap">
+        <div class="footer__nav">
+            <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <a href="#" rel="nofollow" target="_blank"><div class="first"></div></a>
+            <a href="#" rel="nofollow" target="_blank"><div class="vk"></div></a>
+            <a href="#" rel="nofollow" target="_blank"><div class="instagram"></div></a>
+            <a href="#" rel="nofollow" target="_blank"><div class="facebook"></div></a>
+        </div>
+        <div class="footer__copyright">© Dabble</div>
+    </div>
+</footer>
+</body>
+</html>
